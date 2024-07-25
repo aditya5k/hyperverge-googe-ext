@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Notice Board</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Digital Notice Board</h1>
+    <div class="widget-container">
+        <div class="widget">
+            <h2>Google Slides</h2>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRPVl6dMW1jLWO7rVIGukNHcjbuDvKEZwfx44ipmGjE31_7wXFu_qMNvHm-OF_zoNRgKG84k38h2jPk/embed?start=false&loop=false&delayms=3000" frameborder="0"></iframe>
+        </div>
+        <div class="widget pomodoro">
+            <h2>Pomodoro Timer</h2>
+            <div id="timer">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+            <button id="startBtn">Start</button>
+        </div>
+        <div class="widget">
+            <h2>Google Spreadsheet</h2>
+            <iframe src="widgets/google-spreadsheet.html" frameborder="0"></iframe>
+        </div>
+        <div class="widget">
+            <h2>Google Form</h2>
+            <iframe src="widgets/google_form.html" frameborder="0"></iframe>
+        </div>
+        <div class="widget">
+            <h2>Music Player</h2>
+            <iframe src="widgets/music.html" frameborder="0"></iframe>
+        </div>
+        <div class="widget">
+            <a href="https://meet.google.com/" target="_blank">
+                <img src="google_meet_icon.png" alt="Google Meet">
+                <p>Google Meet</p>
+            </a>
+        </div>
+        <div class="widget">
+            <a href="https://keep.google.com/" target="_blank">
+                <img src="google-keep.png" alt="Google Keep">
+                <p>Google Keep</p>
+            </a>
+        </div>
+        <div class="widget">
+            <a href="https://chat.openai.com/" target="_blank">
+                <img src="chat-gpt.png" alt="ChatGPT">
+                <p>ChatGPT</p>
+            </a>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
